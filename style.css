@@ -1,0 +1,110 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(/image/gradient-black-backgrounds-with-golden-frames_23-2149151857.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    background-color: rgb(120, 86, 62);
+    padding: 5px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    background-color: yellowgreen;
+    padding: 3px;
+}
+article{
+    display: flex;
+    flex-direction: row;
+   align-self: center;
+   margin: 10px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid greenyellow;
+    padding: 10px;
+    margin-left: 10px;
+}
+div {
+    margin: auto;
+    text-align: justify;
+    width: 650px;
+    height: 350px;
+    
+}
+.div2{
+    padding: 65px;
+    color: pink;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: auto;
+    margin-bottom: 50px;
+    
+}
+
+.section2{
+    padding: 65px;
+    color:pink;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    text-align: center;
+}
+section{
+    padding: 65px;
+    color:pink ;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+a.hover {
+    color: gray;
+
+
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size:50px;
+    margin-bottom: 50px;
+}
+
+ol{
+    border: 15px;
+    padding: 20px;
+    border-radius: 2opx;
+
+   
+}
+li{
+    color: pink;
+}
+
+footer{
+    text-align: center;
+   background-color: darkkhaki;
+   padding: 10px;
+   border: 1px solid white;
+}
+
+
+
+
