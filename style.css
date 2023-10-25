@@ -38,10 +38,12 @@ a{
     margin-left: 10px;
 }
 div {
+    display: flex;
+    flex-direction: row;
     margin: auto;
-    text-align: justify;
-    width: 650px;
-    height: 350px;
+    text-align: center;
+    width: 1000px;
+    height: 800px;
     
 }
 .div2{
@@ -49,14 +51,13 @@ div {
     color: pink;
     display: flex;
     align-items: center;
-    flex-direction: row-reverse;
     margin: auto;
     margin-bottom: 50px;
     
 }
 
 .section2{
-    padding: 65px;
+    padding: 20px;
     color:pink;
     display: flex;
     flex-direction: row;
@@ -64,7 +65,7 @@ div {
     text-align: center;
 }
 section{
-    padding: 65px;
+    padding: 20px;
     color:pink ;
     display: flex;
     flex-direction: row;
@@ -84,7 +85,6 @@ h3{
     text-align: center;
     color: white;
     font-size:50px;
-    margin-bottom: 50px;
 }
 
 ol{
